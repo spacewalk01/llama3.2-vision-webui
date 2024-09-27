@@ -16,7 +16,7 @@ This project uses the Llama-3.2-Vision model to generate text responses from ima
 - `transformers`
 - `huggingface_hub`
 
-### Getting Started
+## Getting Started
 
 1. **Get a Hugging Face Token**  
    - Sign up for an account [here](https://huggingface.co/join).
