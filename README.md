@@ -38,8 +38,8 @@ To use the model, you'll need a Hugging Face account and a token. Follow these s
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/llama-vision.git
-    cd llama-vision
+    git clone https://github.com/spacewalk01/llama3.2-vision-webui.git
+    cd llama3.2-vision-webui
     ```
 
 ### Running the Application
