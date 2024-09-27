@@ -3,6 +3,7 @@ import torch
 from PIL import Image
 from transformers import MllamaForConditionalGeneration, MllamaProcessor
 from huggingface_hub import login
+import argparse
 
 # Function to log into Hugging Face
 def login_huggingface(token: str):
@@ -49,9 +50,13 @@ def process_input(image: Image.Image, text_input: str) -> str:
 
 # Main execution
 if __name__ == "__main__":
+    # Set up command-line argument parsing
+    parser = argparse.ArgumentParser(description="Run LLAMA 3.2 Vision model with Gradio.")
+    parser.add_argument('--token', type=str, required=True, help='Hugging Face token for authentication.')
+    args = parser.parse_args()
+
     # Log into Hugging Face
-    huggingface_token = "Put Your Hugging Face Token"
-    login_huggingface(huggingface_token)
+    login_huggingface(args.token)
 
     # Load model and processor
     model_id = "meta-llama/Llama-3.2-11B-Vision"
