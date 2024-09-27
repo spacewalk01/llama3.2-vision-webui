@@ -10,7 +10,7 @@ This project uses the Llama-3.2 Vision model to generate text responses from ima
 
 1. **Get a Hugging Face Token**  
    - Sign up for an account [here](https://huggingface.co/join).
-   - Get your token for [huggingface-llama3.2-11b-vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision).
+   - Get a hugging token to access [llama3.2-11b-vision](https://huggingface.co/meta-llama/Llama-3.2-11B-Vision) model.
 
 2. **Project Setup**  
    - Clone the repository:  
