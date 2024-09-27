@@ -56,22 +56,6 @@ python main.py
 
 This will launch a web interface where you can upload an image and provide a text prompt. The LLAMA 3.2 Vision model will generate a response based on the combined inputs.
 
-## Code Overview
-
-The main components of the code are as follows:
-
-- **login_huggingface(token: str)**: Authenticates the user with Hugging Face using the provided token.
-- **load_model_and_processor(model_id: str)**: Loads the LLAMA model and processor from Hugging Face.
-- **process_input(image: Image.Image, text_input: str) -> str**: Processes the input image and text prompt to generate a response from the model.
-
-### Main Execution
-
-The main block of the script handles the following tasks:
-
-1. Logs into Hugging Face using the provided token.
-2. Loads the model and processor.
-3. Sets up the Gradio interface to allow user input.
-
 ## Usage
 
 1. Upload an image.
