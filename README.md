@@ -74,5 +74,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Hugging Face Hub](https://huggingface.co/) for hosting models.
 
 ---
-
-Feel free to modify any sections to better fit your project or personal style!
