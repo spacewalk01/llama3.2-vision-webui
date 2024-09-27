@@ -50,13 +50,9 @@ To run the Gradio interface, execute the following command, replacing `"Your_Hug
 python main.py --token Your_Hugging_Face_Token
 ```
 
-Once the application starts, it will display a running local URL for the interactive demo.
+Once the application starts, it will display a running local URL for the interactive demo. This will launch a web interface where you can upload an image and provide a text prompt. The Llama 3.2 Vision model will generate a response based on the combined inputs.
 
-### Interacting with the Application
-
-This will launch a web interface where you can upload an image and provide a text prompt. The Llama 3.2 Vision model will generate a response based on the combined inputs.
-
-## Usage
+#### Usage
 
 1. Upload an image.
 2. Enter a text prompt.
