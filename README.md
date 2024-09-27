@@ -47,7 +47,7 @@ To use the model, you'll need a Hugging Face account and a token. Follow these s
 To run the Gradio interface, execute the following command, replacing `"Your_Hugging_Face_Token"` with your actual Hugging Face token:
 
 ```bash
-python your_script_name.py --token "Your_Hugging_Face_Token"
+python your_script_name.py --token Your_Hugging_Face_Token
 ```
 
 Once the application starts, it will display a running local URL for the interactive demo.
