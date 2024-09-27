@@ -1,13 +1,14 @@
 ---
 
-# LLAMA 3.2 Vision: Image & Text Understanding
+# Llama 3.2 Vision: Image & Text Understanding
 
 
 <p align="center">
   Depth-Anything-V1
   <img src="image.png" />
 </p>
-This project uses the LLAMA 3.2 Vision model to generate text responses based on image inputs and accompanying text prompts. It utilizes the Gradio library to create a user-friendly interface for interaction.
+
+This project uses the Llama 3.2 Vision model to generate text responses based on image inputs and accompanying text prompts. It utilizes the Gradio library to create a user-friendly interface for interaction.
 
 ## Requirements
 
