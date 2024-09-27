@@ -1,5 +1,5 @@
-gradio 
-torch 
-Pillow 
-transformers 
+gradio
+torch
+Pillow
+transformers>=4.45.0
 huggingface_hub
