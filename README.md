@@ -54,7 +54,7 @@ Once the application starts, it will display a running local URL for the interac
 
 ### Interacting with the Application
 
-This will launch a web interface where you can upload an image and provide a text prompt. The LLAMA 3.2 Vision model will generate a response based on the combined inputs.
+This will launch a web interface where you can upload an image and provide a text prompt. The Llama 3.2 Vision model will generate a response based on the combined inputs.
 
 ## Usage
 
