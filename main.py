@@ -44,7 +44,7 @@ def process_input(image: Image.Image, text_input: str) -> str:
     output = model.generate(**inputs, max_new_tokens=30)
     
     # Decode the generated output into readable text
-    generated_text = processor.decode(output[0], skip_special_tokens=True)
+    generated_text = processor.decode(output[0], skip_special_tokens=True).replace("\\n", "\n")
     
     return generated_text
 
