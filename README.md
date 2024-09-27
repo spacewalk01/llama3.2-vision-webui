@@ -22,7 +22,7 @@ This project uses the Llama-3.2-Vision model to generate text responses from ima
      ```
    - Install dependencies:  
      ```bash
-     pip3 install -r requirements.txt
+     pip install -r requirements.txt
      ```
 
 3. **Run the Application**  
