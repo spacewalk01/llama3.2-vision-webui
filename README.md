@@ -40,6 +40,6 @@ This project uses the Llama-3.2-Vision model to generate text responses from ima
      ```  
    - Access the local URL to upload images and prompts, and view the Llama 3.2 Vision model's responses.
 
-### License
+## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
