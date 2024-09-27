@@ -41,17 +41,17 @@ def process_input(image: Image.Image, text_input: str) -> str:
     inputs = processor(image, prompt, return_tensors="pt").to(model.device)
     
     # Generate the model's output based on the inputs
-    output = model.generate(**inputs, max_new_tokens=30)
+    output = model.generate(**inputs, do_sample=False, max_new_tokens=25)
     
     # Decode the generated output into readable text
-    generated_text = processor.decode(output[0], skip_special_tokens=True).replace("\\n", "\n")
+    generated_text = processor.decode(output[0], skip_special_tokens=True).replace("\\n", "\n").replace("\\", "")
     
     return generated_text
 
 # Main execution
 if __name__ == "__main__":
     # Set up command-line argument parsing
-    parser = argparse.ArgumentParser(description="Run LLAMA 3.2 Vision model with Gradio.")
+    parser = argparse.ArgumentParser(description="Run Llama 3.2 Vision model with Gradio.")
     parser.add_argument('--token', type=str, required=True, help='Hugging Face token for authentication.')
     args = parser.parse_args()
 
@@ -70,8 +70,8 @@ if __name__ == "__main__":
             gr.Textbox(label="Text Prompt")              # Text input box for prompt
         ], 
         outputs=gr.Textbox(label="Generated Output"),    # Output box for generated text
-        title="LLAMA 3.2 Vision: Image & Text Understanding",  # Title for UI
-        description="Upload an image and provide a text prompt. The LLAMA 3.2 Vision model will generate a response based on the combined inputs."
+        title="Llama 3.2 Vision: Image & Text Understanding",  # Title for UI
+        description="Upload an image and provide a text prompt. The Llama 3.2 Vision model will generate a response based on the combined inputs."
     )
 
     # Launch the interface
