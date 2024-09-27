@@ -72,5 +72,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Gradio](https://gradio.app/) for providing the interface.
 - [Transformers](https://huggingface.co/docs/transformers/index) for the model and processor.
 - [Hugging Face Hub](https://huggingface.co/) for hosting models.
-
----
