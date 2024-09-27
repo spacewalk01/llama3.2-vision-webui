@@ -1,9 +1,9 @@
 ---
 
-# Llama3.2-Vision Model Gradio WebUI
+# Llama 3.2 Vision Model Gradio WebUI
 
 <p align="center">
-  <img src="./data/image.png" />
+  <img src="./data/image.png" alt="Llama 3.2 Vision Model" />
 </p>
 
 This project uses the Llama 3.2 Vision model to generate text responses based on image inputs and accompanying text prompts. It utilizes the Gradio library to create a user-friendly interface for interaction.
@@ -42,15 +42,17 @@ To use the model, you'll need a Hugging Face account and a token. Follow these s
     cd llama-vision
     ```
 
-2. Replace `"Put Your Hugging Face Token"` in [main.py](https://github.com/spacewalk01/llama3.2-vision-webui/blob/main/main.py) with your actual Hugging Face token.
-
 ### Running the Application
 
-To run the Gradio interface, execute the following command:
+To run the Gradio interface, execute the following command, replacing `"Your_Hugging_Face_Token"` with your actual Hugging Face token:
 
 ```bash
-python main.py
+python your_script_name.py --token "Your_Hugging_Face_Token"
 ```
+
+Once the application starts, it will display a running local URL for the interactive demo.
+
+### Interacting with the Application
 
 This will launch a web interface where you can upload an image and provide a text prompt. The LLAMA 3.2 Vision model will generate a response based on the combined inputs.
 
