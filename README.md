@@ -1,7 +1,6 @@
 ---
 
-# Llama 3.2 Vision: Image & Text Understanding
-
+# Llama3.2-Vision Model Gradio WebUI
 
 <p align="center">
   <img src="image.png" />
