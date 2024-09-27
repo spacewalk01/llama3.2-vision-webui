@@ -8,14 +8,6 @@
 
 This project uses the Llama-3.2-Vision model to generate text responses from images and text prompts, with a user-friendly web ui interface built using Gradio.
 
-## Requirements
-
-- `gradio`
-- `torch`
-- `Pillow`
-- `transformers`
-- `huggingface_hub`
-
 ## Getting Started
 
 1. **Get a Hugging Face Token**  
@@ -28,9 +20,9 @@ This project uses the Llama-3.2-Vision model to generate text responses from ima
      git clone https://github.com/spacewalk01/llama3.2-vision-webui.git
      cd llama3.2-vision-webui
      ```
-   - Install the required dependencies:  
+   - Install dependencies:  
      ```bash
-     pip install gradio torch Pillow transformers huggingface_hub
+     pip3 install -r requirements.txt
      ```
 
 3. **Run the Application**  
