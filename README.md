@@ -3,7 +3,7 @@
 # Llama3.2-Vision Model Gradio WebUI
 
 <p align="center">
-  <img src="image.png" />
+  <img src="./data/image.png" />
 </p>
 
 This project uses the Llama 3.2 Vision model to generate text responses based on image inputs and accompanying text prompts. It utilizes the Gradio library to create a user-friendly interface for interaction.
@@ -12,7 +12,6 @@ This project uses the Llama 3.2 Vision model to generate text responses based on
 
 Make sure you have the following dependencies installed:
 
-- Python 3.7 or later
 - `gradio`
 - `torch`
 - `Pillow`
