@@ -42,7 +42,7 @@ To use the model, you'll need a Hugging Face account and a token. Follow these s
     cd llama-vision
     ```
 
-2. Replace `"Put Your Hugging Face Token"` in main.py with your actual Hugging Face token.
+2. Replace `"Put Your Hugging Face Token"` in [main.py](https://github.com/spacewalk01/llama3.2-vision-webui/blob/main/main.py) with your actual Hugging Face token.
 
 ### Running the Application
 
