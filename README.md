@@ -4,7 +4,7 @@
   <img src="./data/image1.png" alt="Llama 3.2 Vision Model" />
 </p>
 
-This project uses the Llama-3.2-11B-Vision model to generate text responses from images and text prompts, with a user-friendly web ui interface built using Gradio.
+This project uses the Llama-3.2 Vision model to generate text responses from images and text prompts, with a user-friendly web ui interface built using Gradio.
 
 ## Getting Started
 
