@@ -1,11 +1,8 @@
----
+<h1 align="center">Gradio WebUI for Llama-3.2-Vision Model</h1>
 
-<div style="text-align: center;">
-  <h1>Gradio WebUI for Llama-3.2-Vision Model</h1>
-  <p>
-    <img src="./data/image1.png" alt="Llama 3.2 Vision Model" />
-  </p>
-</div>
+<p align="center">
+  <img src="./data/image1.png" alt="Llama 3.2 Vision Model" />
+</p>
 
 This project uses the Llama-3.2-Vision model to generate text responses from images and text prompts, with a user-friendly web ui interface built using Gradio.
 
