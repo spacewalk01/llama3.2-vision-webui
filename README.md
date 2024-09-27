@@ -1,6 +1,6 @@
 ---
 
-# Llama 3.2 Vision Model Gradio WebUI
+# Gradio WebUI for Llama3.2-Vision Model 
 
 <p align="center">
   <img src="./data/image.png" alt="Llama 3.2 Vision Model" />
