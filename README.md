@@ -4,7 +4,6 @@
 
 
 <p align="center">
-  Depth-Anything-V1
   <img src="image.png" />
 </p>
 
