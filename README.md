@@ -4,5 +4,5 @@ Gradio Web UI for Llama3.2-Vision Model
 
 <p align="center">
   Depth-Anything-V1
-  <img src="image.png" height="225px" width="720px" />
+  <img src="image.png" height="720px" width="225px" />
 </p>
