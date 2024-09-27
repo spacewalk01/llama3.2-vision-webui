@@ -1,4 +1,4 @@
-<h1 align="center">Gradio WebUI for Llama-3.2-Vision Model</h1>
+<h1 align="center">Gradio WebUI for Llama-3.2-Vision</h1>
 
 <p align="center">
   <img src="./data/image1.png" alt="Llama 3.2 Vision Model" />
